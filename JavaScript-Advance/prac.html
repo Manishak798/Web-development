@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: mediumpurple;
+      }
+      .inp {
+        border: 3px solid rgb(214, 202, 202);
+        border-radius: 5px;
+        height: 30px;
+        direction: rtl;
+        width: 80%;
+      }
+      .calc {
+        margin-top: 250px;
+        margin-left: 300px;
+        align-items: center;
+      }
+      .btn {
+        height: 30px;
+        border-radius: 10px;
+        border: 3px solid rgb(135, 125, 125);
+        width: 230px;
+      }
+      .btn:hover {
+        background-color: rosybrown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calc">
+      <input type="text" placeholder="0" id="inp1" class="inp" />
+      <br /><!--it takes text type input that we need to convert to integer or float bu using parseINT or Parsefloat-->
+      <br />
+      <input type="text" placeholder="0" id="inp2" class="inp" />
+      <br />
+      <br />
+      <button onclick="add()" class="btn">ADD</button
+      ><!--when user press add button then on click the button add function will be called-->
+      <button onclick="sub()" class="btn">SUBTRACT</button>
+      <button onclick="prod()" class="btn">MULTIPLY</button>
+      <button onclick="divi()" class="btn">DIVIDE</button>
+    </div>
+    <script>
+      function add() {
+        var a = parseFloat(document.getElementById("inp1").value); //.value is used to get the text value from input
+        var b = parseFloat(document.getElementById("inp2").value);
+        var result = a + b;
+        alert("Result: " + result);
+      }
+      function sub() {
+        var a = parseFloat(document.getElementById("inp1").value); //.value is used to get the text value from input
+        var b = parseFloat(document.getElementById("inp2").value);
+        var result = a - b;
+        alert("Result: " + result);
+      }
+      function prod() {
+        var a = parseFloat(document.getElementById("inp1").value); //.value is used to get the text value from input
+        var b = parseFloat(document.getElementById("inp2").value);
+        var result = a * b;
+        alert("Result: " + result);
+      }
+      function divi() {
+        var a = parseFloat(document.getElementById("inp1").value); //.value is used to get the text value from input
+        var b = parseFloat(document.getElementById("inp2").value);
+        var result = a / b;
+        alert("Result: " + result);
+      }
+    </script>
+  </body>
+</html>
