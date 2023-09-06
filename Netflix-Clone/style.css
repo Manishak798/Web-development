@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+/**Navigation tab**/
+body{
+    background-image: url("./netflix-background.jpg");
+    height: 512px;
+    color: rgb(255,255,255);
+    text-align: center;
+    margin: auto;
+}
+.navigation-tab{
+    height: 5rem;
+    width: 894px;
+    max-width: calc(100% - 4rem);
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    text-align: center;
+    border: 3px solid white;
+}
+.netflix-logo{
+    height: 100px;
+    width: 160px;
+}
+
+.netflix-logo>img{
+    height: 90px;
+    width:150px;
+    
+}
+.language{
+    height: 22px;
+    width: 100px;
+    padding: 3px;
+    align-items: center;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+  
+    border-radius: 2px;
+    position: relative;
+}
+.language:hover{
+    outline: 0.001px solid #e26e0f;
+}
+.select{
+    height: 22px;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100px;
+}
+.select>select{
+    background: none;
+    border: none;
+    color: white;
+    height: 22px;
+    width: 100px;
+}
+option{
+    background-color:white;
+}
+button{
+    height: 30px;
+    background-color: #e50914;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    border: none;
+    
+}
+button:hover{
+    outline:0.1px solid #ff62ab;
+}
