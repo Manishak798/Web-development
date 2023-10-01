@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>this is a new container.</p>
+    </div>
+    <script>
+      /*JSON stands for "JavaScript Object Notation." It's like a way for computers to talk to each other using simple text. Imagine it as a language computers understand to share information, like sending a message in a very organized and easy-to-read format. It's commonly used to exchange data between a web server and a web browser, or between different parts of a program. JSON uses key-value pairs and is pretty similar to how dictionaries work in real life, with words and their definitions. So, in simple terms, JSON is like a structured way for computers to share data.*/
+      let jsonobj = {
+        food: ["pav-bhaji", "panipuri", "burger", "pizza"],
+        fruits: ["pineapple", "mango", "kiwi", "cherry"],
+        isAdmin: true,
+        name: "manisha",
+      };
+      let newjson = JSON.stringify(jsonobj); //to convert json object to string.
+      console.log(newjson);
+      let newwjson = JSON.parse(jsonobj); //JSON.parse() method to convert a JSON-formatted string into a JavaScript object
+      console.log(jsonobj);
+    </script>
+  </body>
+</html>
