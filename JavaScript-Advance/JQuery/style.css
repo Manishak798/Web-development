@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(190, 194, 197);
+}
+
+.big-head {
+    opacity: 0.5;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.btn {
+    border-radius: 5px;
+    box-shadow: 3px;
+    background-color: aqua;
+}
