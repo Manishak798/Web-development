@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventlistner Document</title>
+</head>
+<body>
+    <ul id="main">
+        <li id="moon">Manisha</li>
+        <li id="owl">owl</li>
+        <li id="heart">heart</li>
+    </ul>
+    <button id="test">Toggle Me</button>
+    <script>
+        //theme toggler
+        test.addEventListener("mouseover",setDark);
+        test.addEventListener("click",setLight);
+        function setDark(){
+            document.getElementById("main").style.color="white";
+            let darkmode=document.body.style.background="black";
+            document.getElementById("moon").innerHTML="Beauty 😍";
+            localStorage.setItem("darkmode","black");   
+        }
+        document.body.style.background= localStorage.getItem("darkmode");
+        function setLight(){
+            document.getElementById("main").style.color="purple";
+            document.body.style.background="white";
+            document.getElementById("moon").innerHTML="Gorgeous 😍";
+        }
+
+        //imp for interviews
+        document.getElementById("main").addEventListener("click", function(e){
+            e.stopPropagation();//this will prevent bubbline only capturing will happen
+            console.log("Main ul have been clicked!!");
+        },true)//upr se niche capturing 
+        document.getElementById("moon").addEventListener("click", function(e){
+            e.defaultPrevented();//by applying it only bubbling will happen
+            console.log("I have been clicked!!");
+
+        }, 5000,false)//bubbling andr then bhar like box inside box, by default it is false
+    </script>
+</body>
+</html>
