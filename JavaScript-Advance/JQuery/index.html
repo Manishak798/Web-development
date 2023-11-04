@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JQuery Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
-    <img src="./drum.png" alt="drum img">
-    <a href="https//:www.google.com"> Search </a>
-    <button>Click Me</button>
-    <button>Click Me</button>
-    <button>Click Me</button>
-    <button>Click Me</button>
-    <!--JQuery CDN file to incorporate jquery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./index.js"></script>
+    <input id="text">
+    <button id="btn">copy</button>
+    <script>
+        var copybtn=document.getElementById("btn");
+        copybtn.addEventListener("click", function (){
+            var copytext = document.getElementById("text");
+            copytext.select();//it will select the text
+            //learn about javascript clipboard api
+                navigator.clipboard.writeText(copytext.value).then(function(){//this will copy the selected text and once copied then it will invoke copied.
+                    console.log("copied !!"); 
+                });
+        })
+    </script>
 </body>
 </html>
