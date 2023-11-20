@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JS Document</title>
+    <style>
+        .para{
+            height: 30px;
+            border: 2px solid violet;
+            text-transform: capitalize;
+            font-size: 15px;
+            padding: 5px 5px;
+        }
+        .para2{
+            height: 20px;
+            border: 2px solid greenyellow;
+            text-transform: capitalize;
+            font-size: 15px;
+            padding: 5px 5px;
+        }
+        .btn{
+            font-size: 12px;
+            border-radius: 5px;
+            background-color: rgb(143, 123, 161);
+            padding: 3px;
+        
+        }
+        .container{
+            padding: 10px;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- to add comment use ctrl+/ -->
+    <div class="container">
+    <div class="para">
+        <p>this is a new para</p>
+    </div>
+    <br>
+    <div class="para2" id="para2">
+        this is a para.
+    </div>
+    <br>
+    <button class="btn" id="btnn">click me</button>
+</div>
+<script>
+    //this is how i can add event listeners in js
+    let btnn= document.getElementById("btnn");
+    btnn.addEventListener("click",function clicked(){
+        alert("hello");
+    })
+     let para2 = document.getElementById("para2");
+     para2.addEventListener("click",function clicked(){
+        
+    })
+    para2.addEventListener("copy", function (){
+        let text=document.getSelection();
+        btnn.innerHTML=text;
+    })
+    
+</script>
+</body>
+</html>
