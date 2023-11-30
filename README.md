@@ -15,8 +15,8 @@ This repository is a comprehensive resource hub for web developers, encompassing
 - **Tech Stack**: Our projects and examples cover a wide range of technologies and frameworks, including:
 
     - Front-end:
-        - HTML
-        - CSS
+        - HTML5 
+        - CSS3
         - JavaScript
         - React
         - Angular
