@@ -1,22 +1,17 @@
 import express from "express";
 const app = express();
-const port = 5000;
-app.get('/', (req, res) => {
-    // res.send("<h1> HELLO MANISHA, FROM EXPRESS </h1>");
-    // res.sendStatus(200);
-    res.send("<h1> HELLO MANISHA, FROM EXPRESS </h1>").status(200);
-    // Do not attempt to use 'res' outside this scope; multiple responses cannot be sent in a single handler.
-});
-app.post('/user', (req, res) => {
-    res.sendStatus(199);
-});
-app.patch('/user/manisha', (req, res) => {
-    res.sendStatus(300);
-});
-app.put('/user/register', (req, res) => {
-    res.sendStatus(404);
-});
-app.listen(port, (req, res) => {
-    // res.sendStatus(201);
-    console.log("running");//yaha ope status code mnhi bhejna
-});
+const port = 8080;
+app.get("/", (req, res) => {
+    var name = "mani";
+    res.send(`Hello ${name}`);
+})
+app.get("/about", (req, res) => {
+
+    res.send("<h1>About me</h1><p>My name is Manisha Kundnani.</p>");
+})
+app.get("/contact", (req, res) => {
+    res.send("<h1>Contact me</h1><p>Contact : +9112334455</p>");
+})
+app.listen(port, () => {
+    console.log("server is running");
+})
