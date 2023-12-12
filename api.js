@@ -16,7 +16,7 @@ var pizza = [
         "id": 2,
         "name": "VegPizza",
         "toppings": "cheese, capsicum, onion, tomato",
-        "price": 99
+        "price": 199
     },
     {
         "id": 3,
