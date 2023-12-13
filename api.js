@@ -9,7 +9,7 @@ var pizza = [
     {
         "id": 1,
         "name": "Mozerella",
-        "toppings": "cheese",
+        "toppings": "Double cheese",
         "price": 99
     },
     {
