@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(236, 232, 228);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    margin: 200px;
+    padding: 10px 15px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+#ta {
+    margin-top: 50px;
+    height: 300px;
+    width: 450px;
+    padding: 10px;
+}
+
+#btn {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(169, 169, 177);
+    padding: 3px;
+    color: rgb(68, 67, 67);
+    font-weight: 600;
+}
+
+#copy {
+    display: block;
+    justify-content: center;
+    margin: 15px;
+    text-align: center;
+}
