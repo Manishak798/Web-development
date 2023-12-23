@@ -1,8 +1,9 @@
-//this is my first node app
-const number = 10;
-if (number < 10) {
-    console.log('too small');
-} else {
-    console.log('too large');
-}
-console.log(`My first node app🎉`);
+const http = require("http");
+const request = http.get('http://www.google.com', response => {
+    response.on('data', chunk => {
+        console.log(chunk.toString());
+    })
+});
+request.on('error', error => {
+    console.error('error message');
+});
