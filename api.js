@@ -3,7 +3,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 const app = express();
 const port = 8000;
-const masterkey = "1234MK";//an authentication key to access api data
+const masterkey = "1234MK";//an authentication key to access API data
 app.use(bodyParser.urlencoded({ extended: true }));
 var pizza = [
     {
