@@ -1,3 +1,3 @@
 $('h1').click(function (){
-  console.log('clicked !!!');
+  console.log('clicked !!');
 })
