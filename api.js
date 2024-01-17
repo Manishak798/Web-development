@@ -22,7 +22,7 @@ var pizza = [
         "id": 3,
         "name": "NonVegPizza",
         "toppings": "cheese, chicken, pepperoni",
-        "price": 99
+        "price": 199
     }
 ]
 app.get('/random', (req, res) => {
