@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border: 2px solid black;
+    box-shadow: 1px 1px gray;
+    margin: 0 auto;
+    margin-top: 15px;
+    letter-spacing: 0.3px;
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    padding: 2px;
+    height: 10px;
+    width: 50px;
+}
+
+button {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.tab {
+    height: 30px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: rgba(241, 10, 10, 0.596);
+}
