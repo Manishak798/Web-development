@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+    background-color: #f5f6fa;
+}
+
+.head>img {
+    margin-left: 11%;
+    border-radius: 120px;
+}
+
+img {
+    height: 140px;
+    width: 200px;
+}
+
+.name {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.result {
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px gray;
+    height: 350px;
+    width: 250px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    background: radial-gradient(circle at 50% 0%, orange 46%, #ffff 36%);
+    border-radius: 10px;
+}
+
+.hp {
+    height: 15px;
+    width: 60px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #ffff;
+    letter-spacing: 0.4px;
+    font-size: 12px;
+    padding: 4px 2px;
+    margin-left: 70%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.types {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.abt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.pokeimg {
+    margin-top: 9%;
+    text-align: center;
+}
+
+.btn {
+    margin: 0 auto;
+}
+
+.crdbtn {
+    background-color: #4cd137;
+    margin-left: 43%;
+    padding: 5px 5px;
+    margin-top: 5%;
+    color: #ffff;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #root {
+        padding: 10px 10px;
+    }
+
+    .head>img {
+        margin: 0 auto;
+        margin-left: 11%;
+    }
+
+    .crdbtn {
+
+        margin-left: 20%;
+        padding: 5px 5px;
+        margin-top: 7%;
+    }
+
+    .result {
+        margin-left: 10%;
+        border: 1px solid grey;
+        box-shadow: 5px 5px 5px gray;
+        height: 350px;
+        width: 225px;
+        padding: 5px 5px;
+        background: radial-gradient(circle at 50% 0%, orange 46%, #ffff 36%);
+        border-radius: 10px;
+    }
+
+}
