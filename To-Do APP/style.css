@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8c291;
+    color: #485460;
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.heading {
+    text-align: center;
+
+}
+
+.list-head {
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.input {
+    width: 80%;
+}
+
+.inp {
+    height: 30px;
+    padding: 5px 5px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.btn {
+    width: 15%;
+}
+
+.adbtn {
+    height: 40px;
+    width: 100%;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.adbtn:hover {
+    background-color: cornsilk;
+}
+
+.task-list {
+    height: 100px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px 5px;
+}
+
+li {
+    height: 50px;
+    width: 100%;
+    list-style: none;
+    margin-left: 0;
+    border-bottom: 2px solid gray;
+}
+
+.tasks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task {
+    margin-left: 0;
+    height: 25px;
+    padding: 5px 5px;
+    width: 80%;
+    background-color: #ffff;
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    font-weight: 800;
+}
+
+.edit {
+    height: 35px;
+    width: 35px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    background-color: rgb(175, 157, 193);
+    color: #ffff;
+    font-weight: 700;
+}
+
+.delete {
+    height: 35px;
+    width: 35px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    background-color: red;
+    color: #ffff;
+    font-weight: 700;
+}
