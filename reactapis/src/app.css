@@ -1,0 +1,25 @@
+.card-container {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.uimg {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.btn {
+    text-align: center;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: white;
+    margin-left: 49%;
+    margin-top: 5%;
+    cursor: pointer;
+}
