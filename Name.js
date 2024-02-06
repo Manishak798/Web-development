@@ -1,3 +1,3 @@
-console.log("Greetings, Mona☺️");
+console.log("Greetings, Mona");
 console.log("Helloo 🌎");
 
