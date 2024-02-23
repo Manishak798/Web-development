@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.input-box button {
+    padding: 8px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-box button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #bfbfbf;
+}
+
+.message.user::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    /* Adjust the distance from the left */
+    width: 30px;
+    height: 30px;
+    background-image: url('user-photo.jpg');
+    /* URL to the user's photo */
+    background-size: cover;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.message.bot::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    /* Adjust the distance from the right */
+    width: 30px;
+    height: 30px;
+    background-image: url('bot-photo.jpg');
+    /* URL to the bot's photo */
+    background-size: cover;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+/* Example of additional styling for the message content */
+.message p {
+    margin: 0;
+    padding-left: 50px;
+    /* Adjust the distance from the photo */
+}
