@@ -58,7 +58,7 @@ This repository is a comprehensive resource hub for web developers, encompassing
 
 We value contributions from the web development community! If you have web development code, projects, or tools you'd like to contribute, follow our [Contribution Guidelines](CONTRIBUTING.md) to get started.
 
-## Support and Feedback
+## Support and Feedback ✍🏻
 
 If you have questions, encounter issues, or wish to provide feedback on any of the web development projects or code samples in this repository, please don't hesitate to [open an issue](https://github.com/your-username/web-development-repo/issues). We are here to assist you and value your input.
 
