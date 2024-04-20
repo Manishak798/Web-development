@@ -66,6 +66,6 @@ If you have questions, encounter issues, or wish to provide feedback on any of t
 
 This repository is open-source and licensed under the [MIT License](LICENSE), granting you the freedom to use, modify, and distribute the code for your web development projects. Remember to provide appropriate attribution when reusing code from this repository.
 
-## Acknowledgments
+## Acknowledgments 🔆 🌟
 
 We extend our appreciation to the web development community and all contributors for their valuable contributions to this repository. Together, we are building a valuable resource hub for web developers worldwide. Happy coding and web development! 🌐🚀
