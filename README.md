@@ -54,7 +54,7 @@ This repository is a comprehensive resource hub for web developers, encompassing
 2. Navigate through the directories to find web development projects and code examples that align with your interests.
 3. Review the README files within each project for specific setup and usage instructions.
 
-## Contribution Guidelines
+## Contribution Guidelines 🤝🏻
 
 We value contributions from the web development community! If you have web development code, projects, or tools you'd like to contribute, follow our [Contribution Guidelines](CONTRIBUTING.md) to get started.
 
