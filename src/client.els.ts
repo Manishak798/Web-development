@@ -3,5 +3,5 @@
 import { Client } from '@elastic/elasticsearch'
 
 /* Initialize elastic search client */
-const client: Client = new Client({node: 'http://localhost:9200'});
+export const client: Client = new Client({node: 'http://localhost:9200'});
 
