@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.13.1",
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}
