@@ -26,7 +26,6 @@ This repository is a comprehensive resource hub for web developers, encompassing
         - Express
         - Django
         - Ruby on Rails
-        - PHP
     - Databases:
         - MySQL
         - PostgreSQL
