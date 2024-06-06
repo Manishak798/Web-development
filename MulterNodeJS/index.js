@@ -3,7 +3,7 @@ import { PORT } from './config.js';
 import router from './routes/route.js';
 import path from 'path';
 
-
+//nodejs multer
 const app = express();
 
 app.use(express.urlencoded({ extended: false }));
