@@ -61,7 +61,7 @@ We value contributions from the web development community! If you have web devel
 
 If you have questions, encounter issues, or wish to provide feedback on any of the web development projects or code samples in this repository, please don't hesitate to [open an issue](https://github.com/your-username/web-development-repo/issues). We are here to assist you and value your input.
 
-## License 📑
+## License 📑✔️
 
 This repository is open-source and licensed under the [MIT License](LICENSE), granting you the freedom to use, modify, and distribute the code for your web development projects. Remember to provide appropriate attribution when reusing code from this repository.
 
