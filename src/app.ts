@@ -96,16 +96,7 @@ const startKafkaServer = async () => {
             vin: 'VIN1234567890'
         }
     }
-    await kafkaServer.init(
-        'dev',
-        'TRUE',
-        'manisha',
-        'https://karapace.dev.revos.in',
-        'asset_trigger_notification_details',
-        'AssetsTriggersNotification'
-    );
-    await kafkaServer.produceMessage('ASSET_TRIGGER_NOTIFICATIONS', notificationMessage, 'AssetsTriggersNotification');
-
+    
 };
 
 startKafkaServer();
