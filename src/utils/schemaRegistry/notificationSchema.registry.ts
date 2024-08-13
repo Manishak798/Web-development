@@ -15,11 +15,7 @@ export class NotificationSchema {
     private constructor() {
         this.registry = SchemaRegistryS.getInstance(); 
         this.protoFiles.set('Notification',path.join(__dirname, '..','..', 'store', 'schemas', 'proto', 'Notification.proto'));
-        this.protoFiles.set('AssetsTriggersNotification',path.join(__dirname, '..','..', 'store', 'schemas', 'proto', 'AssetsTriggersNotification.proto'));
-        this.protoFiles.set('AuthEmaiNotification',path.join(__dirname, '..','..', 'store', 'schemas', 'proto', 'AuthEmaiNotification.proto'));
-        this.protoFiles.set('BoltChargerNotification',path.join(__dirname, '..','..', 'store', 'schemas', 'proto', 'BoltChargerNotification.proto'));
-        this.protoFiles.set('BoltChargerNotificationV2',path.join(__dirname, '..','..', 'store', 'schemas', 'proto', 'BoltChargerNotificationV2.proto'));
-    }
+      }
 
     static getInstance(): NotificationSchema {
         if(!this.instance)
