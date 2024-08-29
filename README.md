@@ -6,7 +6,7 @@ Welcome to the Web Development Repository! 🌐 🖥️
 
 This repository is a comprehensive resource hub for web developers, encompassing a wide array of web development projects, code samples, and tools. Whether you're a seasoned developer or just starting your web development journey, you'll find a wealth of materials here to assist you in learning, building, and contributing to web development projects.
 
-## Features ✨
+## Features ✨ 
 
 - **Diverse Projects**: Explore a variety of web development projects, including front-end and back-end applications, responsive design examples, content management systems, and more.
 
