@@ -10,7 +10,7 @@ This repository is a comprehensive resource hub for web developers, encompassing
 
 - **Diverse Projects**: Explore a variety of web development projects, including front-end and back-end applications, responsive design examples, content management systems, and more.
 
-- **Code Samples**: Access code snippets and examples for various web development technologies, such as HTML, CSS, JavaScript, and popular frameworks like React, Angular, and Vue.
+- **Code Samples 🖥️**: Access code snippets and examples for various web development technologies, such as HTML, CSS, JavaScript, and popular frameworks like React, Angular, and Vue.
 
 - **Tech Stack**: Our projects and examples cover a wide range of technologies and frameworks, including:
 
