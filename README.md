@@ -43,11 +43,11 @@ This repository is a comprehensive resource hub for web developers, encompassing
         - Jenkins
         - Travis CI
 
-- **Documentation**: 📄
+- **Documentation** 📄
 
   Many of our projects include detailed documentation and usage instructions, facilitating your understanding of the codebase.
 
-- **Community Contributions** ☺️✨:
+- **Community Contributions** ☺️✨
 
   We actively encourage contributions from the web development community. If you have web development projects or code snippets to share, please refer to our [Contribution Guidelines] 
   (CONTRIBUTING.md) for information on how to contribute.
