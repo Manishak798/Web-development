@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+message Notification {
+    message User {
+        string inAppNotificationUserId = 1;
+        string pushNotificationUserId = 2;
+        repeated string emailIds = 3;
+        repeated string phoneNumbers = 4;
+    }
+    message Message {
+        string body = 1;
+        string subject = 2;
+        int32 priority = 3;
+        repeated bytes attachments = 4;
+        string html = 5;
+    }
+    message SmsObj {
+        string smsType = 1;
+        string templateId = 2;
+    }
+    message OneSignalPayload {
+        string alert = 1;
+        bool sos = 2;
+        string vin = 3;
+    }
+    message Attachment {
+        string filename = 1;
+        string filetype = 2;
+        bytes content = 3;
+    }
+    User user = 1;
+    Message message = 2;
+    string appId = 3;
+    SmsObj smsObj = 4;
+    OneSignalPayload oneSignalPayload = 6;
+}
