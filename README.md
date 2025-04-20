@@ -1,4 +1,4 @@
-# Web Development 👩‍💻⭐ 
+# Web Development 👩‍💻
  
 Welcome to the Web Development Repository! 🌐 🖥️      
       
